@@ -3,18 +3,7 @@ body {
     height: 100vh;
     overflow: hidden;
     background-color: white;
-    cursor: none; /* Скрываем стандартный курсор */
-}
-
-#cursorTrail {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background-color: black;
-    border-radius: 50%;
-    pointer-events: none;
-    opacity: 0.8;
-    transition: transform 1s ease-out, opacity 1s ease-out;
+    cursor: none; 
 }
 
 .trail-dot {
@@ -26,6 +15,6 @@ body {
     pointer-events: none;
     opacity: 0.8;
     transition: transform 1s ease-out, opacity 1s ease-out;
-    z-index: 1000; /* Make sure it appears above content */
+    z-index: 1000; 
 }
 
