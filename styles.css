@@ -8,13 +8,18 @@ body {
 
 .trail-dot {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     background-color: black;
     border-radius: 50%;
     pointer-events: none;
     opacity: 0.8;
-    transition: transform 1s ease-out, opacity 1s ease-out;
+    transition: transform .2s cubic-bezier(0.42, 0, 1, 0.6);
     z-index: 1000; 
 }
 
+/* .trail-dot:last-child {
+    width: 35px;
+    height: 35px;
+    opacity: 1
+} */
