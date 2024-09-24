@@ -2,6 +2,8 @@
 
 A simple JavaScript project that creates black circles trailing the mouse cursor. Circles shrink and disappear after a short delay.
 
+![Cursor Trail Demo](./cursor_trail.gif)
+
 ## Usage
 
 1. Add the following CSS for the circles:
